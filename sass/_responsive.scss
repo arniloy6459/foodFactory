@@ -1,0 +1,322 @@
+// Extra small devices
+@include media-xs{
+    header{
+        .navbar-brand{
+            margin-right: 0;
+        }
+
+        #content1{
+            margin-top: 15vh;
+            padding-bottom: 20vh;
+            h1{
+                font-size: 3em;
+            }
+        }
+    }
+    .td_menu {
+        .title{
+            font-size: 1.7em;
+        }
+        .header_info{
+            font-size: 14px;
+        }
+        .food_pack {
+            .food h2{
+                margin-top: 10px;
+            }
+        }
+    }
+    .slide{
+        margin-top: 10px;
+    }
+
+    .chefs_special{
+        .header_info{
+            font-size: 14px;
+        }
+        .artical p {
+            font-size: 14px;
+        }
+    }
+    .food_section{
+        .food_menu{
+            .title{
+                padding-top: 0px;
+            }
+            .carousel{
+                padding: 0 42px;
+                .carousel-control{
+                    height: 40px;
+                    width: 35px;
+                }
+            }
+        }
+    } 
+    
+    .testimonial{
+        .slideshow-container {
+            .mySlides {
+                padding: 30px;
+            }
+            q{
+                font-size: 14px;
+            }
+        }
+    } 
+
+    .chefs{
+        .header_info{
+            font-size: 14px;
+        }
+        .chefsimg{
+            margin-right: 10px;
+        } 
+    }
+
+    .new_platter {
+        .title{
+            font-size: 2em;
+        }
+        .header_info{
+            font-size: 14px;
+        }
+        .artical p {
+            font-size: 14px;
+        }
+    }
+
+    .contact_card{
+        margin-bottom: 10vh;
+    }
+}
+
+// Small devices
+@include media-sm {
+    header{
+        #content1{
+            margin-top: 20vh;
+            padding-bottom: 20vh;
+            h1{
+                font-size: 4em;
+            }
+        }
+    }
+
+    .td_menu{
+        .food_pack{
+            .food{
+                h2{
+                    margin-top: 10px;
+                    font-size: 25px;
+                }
+
+                p{
+                    font-size: 12px;    
+                }
+            }
+
+            .slide{
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .food_section {
+        .imageGrid{
+            margin-right: 20px;
+        }
+    }
+
+    
+    .testimonial {
+        .slideshow-container {
+            .mySlides{
+                padding: 27px;
+            }
+        }
+    }
+
+    .chefs {
+        .chefsimg{
+            margin-right: 15px;
+        }
+    }
+    .contact_card{
+        margin-bottom: 10vh;
+    }
+}
+
+// Medium devices
+@include media-md {
+    header{
+        #content1{
+            margin-top: 25vh;
+            padding-bottom: 20vh;
+            h1{
+                font-size: 5em;
+            }
+        }
+    }
+    .td_menu{
+        .food_pack{
+            .food{
+                h2{
+                    margin-top: 0px;
+                    font-size: 30px;
+                }
+
+                p{
+                    font-size: 16px;    
+                }
+            }
+
+            .slide{
+                margin-top: 10vh;
+            }
+        }
+    }
+
+    .food_section{
+        .food_menu{
+            .title{
+                padding-top: 0px;
+            }
+            .carousel{
+                padding: 0 70px;
+                .carousel-control{
+                    height: 40px;
+                    width: 35px;
+                }
+            }
+        }
+        .imageGrid{
+            margin-top: 15px;
+        }
+    }
+
+    .chefs_info{
+        margin: 0!important;
+    }
+}
+
+// Large devices
+@include media-lg {
+    header{
+        #content1{
+            margin-top: 25vh;
+            padding-bottom: 25vh;
+            h1{
+                font-size: 6em;
+            }
+        }
+    }
+    .td_menu{
+        .food_pack{
+            .food{
+                h2{
+                    margin-top: 0px;
+                    font-size: 20px;
+                }
+
+                p{
+                    font-size: 8px;    
+                }
+            }
+
+            .slide{
+                margin-top: 5px;
+            }
+        }
+    }
+    .food_section{
+        .food_menu{
+            .title{
+                padding-top: 0px;
+            }
+            .carousel{
+                padding: 0 40px;
+                .carousel-control{
+                    height: 40px;
+                    width: 35px;
+                }
+            }
+        }
+        .imageGrid{
+            margin-top: 15px;
+        }
+    }
+
+    .testimonial{
+        .slideshow-container {
+            .mySlides {
+                padding: 80px;
+            }
+            q{
+                font-size: 18px;
+            }
+        }
+    } 
+    .chefs_info{
+        margin: 0em!important;
+    }
+}
+
+// Extra large
+@include media-xl {
+    header{
+        #content1{
+            h1{
+                font-size: 7em;
+            }
+        }
+    }
+    .td_menu{
+        .food_pack{
+            .food{
+                h2{
+                    margin-top: 0px;
+                    font-size: 20px;
+                }
+
+                p{
+                    font-size: 10px;    
+                }
+            }
+
+            .slide{
+                margin-top: 0vh;
+            }
+        }
+    }
+    .food_section{
+        .food_menu{
+            .title{
+                padding-top: 35px;
+            }
+            .carousel{
+                padding: 0 70px;
+                .carousel-control{
+                    height: 44px;
+                    width: 40px;
+                }
+            }
+        }
+        .imageGrid{
+            margin-top: 0px;
+        }
+    }
+
+    .testimonial{
+        .slideshow-container {
+            .mySlides {
+                padding: 80px;
+            }
+            q{
+                font-size: 18px;
+            }
+        }
+    } 
+    .chefs_info{
+        margin: 1.5em!important;
+    }
+}

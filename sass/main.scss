@@ -1,0 +1,19 @@
+@import 'config';
+@import 'header';
+@import 'td_menu';
+@import 'chefs_specia';
+@import 'food_menu';
+@import 'newPlatter';
+@import 'our_chefs';
+@import 'testimonial';
+@import 'contact';
+@import 'footer';
+@import 'top';
+@import 'responsive';
+
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: $text-color;
+}

@@ -1,0 +1,49 @@
+    // TREDITIONAL MENU
+    .td_menu{
+        color: $second-text-color;
+        padding-top: 10vh;
+        margin-bottom: 10vh;
+
+        .title{
+            font-family: $header;
+            font-weight: 700;
+            font-size: 2em;
+            text-align: center;
+        }
+    
+        .header_info{
+            font-family: $pera;
+            text-align: center;
+        }
+    
+        hr {
+            width: 65%;
+            border-top: 1px solid $text-color;
+            border-bottom: 1px solid rgba(0,0,0,.3);
+        }
+    
+        .food_pack{
+            margin: 10vh 0 4vh 0;
+    
+            .food{
+                padding: 10px 0;
+    
+                h2{
+                    font-size: 20px;
+                    font-family: $header;
+                }
+    
+                p{
+                    font-size: 10px;
+                    font-family: $pera;
+                    text-align: justify;
+                    margin: 0;
+    
+                    a{
+                        font-family: $link;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }

@@ -1,0 +1,64 @@
+    // CHEF'S SPECIAL
+    .chefs_special{
+        padding: 10vh 0;
+        background-image: linear-gradient(to right, rgba(39, 39, 39, 0.925), rgba(39, 39, 39, 0.363)), url(../img/bg/photo-1580683742795-49989f7ecb72.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+
+        .title{
+            font-family: $header;
+            font-weight: 700;
+            font-size: 3em;
+            text-align: center;
+        }
+    
+        .header_info{
+            font-family: $pera;
+            text-align: center;
+        }
+    
+        hr {
+            width: 65%;
+            border-top: 1px solid $text-color;
+            border-bottom: 1px solid rgba(0,0,0,.3);
+        }
+
+        .img_artical1{
+            background-image: linear-gradient(to right, rgba(39, 39, 39, 0.548), rgba(39, 39, 39, 0.555)), url(../img/chefsSpecial/photo-1503767849114-976b67568b02.jpg);
+            background-size: cover;
+            background-position: center;
+            margin-top: 5vh;
+        }
+
+        .img_artical2{
+            background-image: linear-gradient(to right, rgba(39, 39, 39, 0.582), rgba(39, 39, 39, 0.589)), url(../img/chefsSpecial/photo-1580683742795-49989f7ecb72.jpg);
+            background-size: cover;
+            background-position: center;
+            margin-top: 5vh;
+        }
+
+        .artical{
+            padding: 10vh 0;
+            text-align: center;
+
+            h1{
+                font-family: $header;
+                font-size: 2em;
+            }
+
+            hr {
+                width: 50%;
+                border-top: 1px solid $text-color;
+                border-bottom: 1px solid rgba(0,0,0,.3);
+            }
+
+            p{
+                font-family: $pera;
+            }
+
+            button{
+                font-family: $link;
+            }
+        }
+    }

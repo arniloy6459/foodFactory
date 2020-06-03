@@ -1,0 +1,73 @@
+    // CUSTOMER SAYING
+    .testimonial{    
+
+        .slideshow-container {
+            position: relative;
+            background-image: linear-gradient(to right, rgba(39, 39, 39, 0.856), rgba(39, 39, 39, 0.801)), url(../img/bg/rumman-amin-k-gWRgrU2N8-unsplash.jpg);
+            background-size: cover;
+            background-position: center;
+
+            .title{
+                font-family: $header;
+                font-weight: 700;
+                font-size: 2em;
+                text-align: center;
+                padding-top: 6vh;
+            }
+
+            hr {
+                width: 35%;
+                border-top: 1px solid $text-color;
+                border-bottom: 1px solid rgba(0,0,0,.3);
+            }
+
+            .mySlides {
+                display: none;
+                padding: 80px;
+                text-align: center;
+
+                .costomer{
+                    height: 100px;
+                    width: 100px;
+                    border-radius: 50%;
+                }
+            }
+
+            .prev, .next {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width: auto;
+                margin-top: -30px;
+                padding: 16px;
+                color: $text-color;
+                font-weight: bold;
+                font-size: 20px;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+            }
+            
+            .next {
+                position: absolute;
+                right: 0;
+                border-radius: 3px 0 0 3px;
+            }
+            
+            
+            .prev:hover, .next:hover {
+                background-color: rgba(0, 0, 0, 0.274);
+                color: $text-color;
+            }
+            
+            q {
+                font-style: normal;
+                font-family: $pera;
+            }
+            
+        
+            .author {
+                color: $hover-color;
+                font-family: $header;
+            }
+        }
+    }

@@ -1,0 +1,41 @@
+    // OUR CHEF'S
+    .chefs{
+        padding: 10vh 0;
+        color: $second-text-color;
+
+        .carousel-caption{
+            background-color: #0606066e;
+        }
+
+        h5{
+            font-family: $header;
+        }
+
+        .title{
+            font-family: $header;
+            font-weight: 700;
+            font-size: 2em;
+            text-align: center;
+        }
+    
+        .header_info{
+            font-family: $pera;
+            text-align: center;
+        }
+    
+        hr {
+            width: 65%;
+            border-top: 1px solid $text-color;
+            border-bottom: 1px solid rgba(0,0,0,.3);
+        }
+
+        .chefsimg{
+            display: grid;
+            grid-template-columns: 33.33% 33.33% 33.33%;
+            grid-gap: 10px;
+
+            .chefs_img{
+                margin-top: 5px;
+            }
+        }
+    }

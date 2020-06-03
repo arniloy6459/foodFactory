@@ -1,0 +1,210 @@
+    // FOOD MENU
+    .food_section{
+        margin: 10vh 0;
+
+        .food_menu{
+            .title{
+                font-family: $header;
+                font-weight: 700;
+                font-size: 2em;
+                text-align: center;
+                color: $second-text-color;
+                padding-top: 6vh;
+            }
+        
+            .header_info{
+                font-family: $pera;
+                text-align: center;
+                color: $second-text-color;
+            }
+    
+            hr {
+                width: 35%;
+                border-top: 1px solid $text-color;
+                border-bottom: 1px solid rgba(0,0,0,.3);
+            }
+            .carousel {
+                margin: 20px auto;
+                padding: 0 70px;
+                max-width: 350px;
+                max-height: 325px;
+
+                .item {
+                    color: $mute-text;
+                    min-height: 325px;
+                    text-align: center;
+                    overflow: hidden;
+
+                    .img-box {
+                        height: 120px;
+                        margin-bottom: 20px;
+                        width: 100%;
+                        position: relative;
+                    }
+
+                    img {	
+                        max-width: 100%;
+                        max-height: 100%;
+                        display: inline-block;
+                        position: absolute;
+                        bottom: 0;
+                        margin: 0 auto;
+                        left: 0;
+                        right: 0;
+                    }
+
+                    h4 {
+                        font-size: 20px;
+                        font-family: $header;
+                        color: $second-text-color;
+                    }
+
+                    h4, p, ul {
+                        margin-bottom: 5px;
+                    }
+                }
+
+                .thumb-wrapper {
+                    padding: 20px 15px;
+                    background: $text-color;
+                    border-radius: 6px;
+                    text-align: center;
+                    position: relative;
+                    border: 2px solid;
+                }
+
+                .thumb-content{
+                    .btn {
+                        color: $second-text-color;
+                        font-family: $link;
+                        font-size: 14px;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        background: none;
+                        border: 1px solid $second-text-color;
+                        padding: 6px 14px;
+                        margin-top: 5px;
+                        line-height: 16px;
+                        border-radius: 20px;
+
+                        &:hover, &:focus {
+                            color: $text-color;
+                            background: $second-text-color;
+                            box-shadow: none;
+                        }
+
+                        i {
+                            font-size: 14px;
+                            font-weight: bold;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+
+                .carousel-control {
+                    height: 44px;
+                    width: 40px;
+                    background: $second-text-color;	
+                    margin: auto 0;
+                    border-radius: 4px;
+                    opacity: 0.8;
+
+                    &:hover {
+                        background: $second-text-color;
+                        opacity: 1;
+                    }
+
+                    i {
+                        font-size: 36px;
+                        position: absolute;
+                        top: 50%;
+                        display: inline-block;
+                        margin: -19px 0 0 0;
+                        z-index: 5;
+                        left: 0;
+                        right: 0;
+                        color: $text-color;
+                        text-shadow: none;
+                        font-weight: bold;
+                    }
+
+                    .left i {
+                        margin-left: -2px;
+                    }
+
+                    .right i {
+                        margin-right: -4px;
+                    }
+                }
+
+                .item-price {
+                    font-size: 13px;
+                    padding: 2px 0;
+
+                    strike {
+                        opacity: 0.7;
+                        margin-right: 5px;
+                    }
+                }
+
+                .carousel-indicators {
+                    bottom: -50px;
+
+                    li, li.active {
+                        width: 10px;
+                        height: 10px;
+                        margin: 4px;
+                        border-radius: 50%;
+                        border: none;
+                    }
+
+                    li {	
+                        background: rgba(0, 0, 0, 0.2);
+                    }
+
+                    li.active {	
+                        background: rgba(0, 0, 0, 0.6);
+                    }
+                }
+
+                .wish-icon {
+                    position: absolute;
+                    left: 23px;
+                    top: 31px;
+                    z-index: 99;
+                    cursor: pointer;
+                    font-size: 16px;
+                    color: $text-color;
+
+                    .fa-heart {
+                        color: $hover-color;
+                    }
+                }
+            }
+
+            .star-rating{
+                li {
+                    padding: 0;
+                }
+
+                i {
+                    font-size: 14px;
+                    color: $star-color;
+                }
+            }  
+        }
+
+
+            .imageGrid {
+                display: grid;
+                grid-template-columns: 33.33% 33.33% 33.33%;
+                grid-gap: 10px 10px;
+            }
+              
+            img {
+                margin-top: 8px;
+                vertical-align: middle;
+                width: 100%;
+            }
+
+    }

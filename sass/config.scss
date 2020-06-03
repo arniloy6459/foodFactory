@@ -1,0 +1,81 @@
+// Font Family
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@800&display=swap');
+
+
+// Font
+$logo: 'Arima Madurai', cursive;
+$nav: 'Dosis', sans-serif;
+$header: 'PT Serif', serif;
+$pera: 'Amiko', sans-serif;
+$link: 'Neuton', serif;
+
+
+// Color
+$text-color: #FFF;
+$second-text-color: #000;
+$hover-color: #d72323;
+$secendHover: #212121;
+$mute-text: #747d89;
+$star-color: #ffc000;
+
+
+
+@mixin transition-ease {
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+@keyframes imageAnimation {
+    0% {
+      opacity: 0;
+      animation-timing-function: ease-in;
+    }
+    10% {
+      opacity: 1;
+      animation-timing-function: ease-out;
+    }
+    20% {
+      opacity: 1
+    }
+    30% {
+      opacity: 0
+    }
+}
+
+// Responsive breakpoints
+
+// Extra small devices
+@mixin  media-xs {
+  @media screen and (max-width: 339px) {
+      @content;
+  }
+}
+// Small devices
+@mixin  media-sm {
+  @media screen and (min-width: 340px) {
+      @content;
+  }
+}
+// Medium devices
+@mixin  media-md {
+  @media screen and (min-width: 600px) {
+      @content;
+  }
+}
+// Large devices
+@mixin  media-lg {
+  @media screen and (min-width: 992px) {
+      @content;
+  }
+}
+// Extra large
+@mixin  media-xl {
+  @media screen and (min-width: 1200px) {
+      @content;
+  }
+}

@@ -1,0 +1,151 @@
+header{
+    #content {
+        z-index: 1;
+        position: relative;
+
+        .navbar-light{
+            .navbar-brand{
+                font-family: $logo;
+                color: $text-color;
+                font-size: 2em;
+            }
+
+            .navbar-toggler{
+                color: $text-color;
+                border-color: rgb(255, 255, 255);
+            }
+
+            .navbar-toggler-icon{
+                background-image: url(../img/toggler/logo1.jpg);
+            }
+
+            .navbar-nav{
+                .nav-link{
+                    font-family: $nav;
+                    color: $text-color;
+                    font-size: 1em;
+                    text-align: center;
+
+                    &:hover{
+                        color: $hover-color;
+                        @include transition-ease;
+                    }
+                }
+
+                .active{
+                    font-family: $nav;
+                    color: $hover-color;
+                    font-size: 1em;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    #content1 {
+        z-index: 1;
+        position: relative;
+        text-align: center;
+
+
+        h1 {
+            font-weight: 700;
+            text-shadow: 0 1px 0 #ccc,
+                            0 2px 0 #c9c9c9,
+                            0 3px 0 #bbb,
+                            0 4px 0 #b9b9b9,
+                            0 5px 0 #aaa,
+                            0 6px 1px rgba(0,0,0,.1),
+                            0 0 5px rgba(0,0,0,.1),
+                            0 1px 3px rgba(0,0,0,.3),
+                            0 3px 5px rgba(0,0,0,.2),
+                            0 5px 10px rgba(0,0,0,.25),
+                            0 10px 10px rgba(0,0,0,.2),
+                            0 20px 20px rgba(0,0,0,.15);
+        }
+        
+        h3 {
+            font-family: 'Arima Madurai', cursive;
+            text-shadow: 0px 4px 3px rgba(0,0,0,.4),
+                            0px 8px 13px rgba(0,0,0,.1),
+                            0px 18px 23px rgba(0,0,0,.1);
+        }
+        
+        hr {
+            width: 35%;
+            border-top: 1px solid $text-color;
+            border-bottom: 1px solid rgba(0,0,0,.3);
+        }
+    
+        p {
+            font-size: 1.3em;
+            font-family: $link;
+            text-shadow: 0px 4px 3px rgba(0,0,0,.4),
+            0px 8px 13px rgba(0,0,0,.1),
+            0px 18px 23px rgba(0,0,0,.1);
+        }
+    
+        .scrol_down {
+            color: $text-color;
+            background-color: $second-text-color;
+            padding: 10px;
+            font-size: 30px;
+            border: 1px solid;
+            border-radius: 20px;
+    
+            &:hover{
+                color: $second-text-color;
+                background-color: $text-color;
+            }
+        }
+    }
+         
+    .slideshow {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    
+        li {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-size: cover;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            opacity: 0;
+            z-index: 0;
+            animation: imageAnimation 35s linear infinite;
+
+            &:nth-child(1) {
+                background-image: linear-gradient(to top, rgba(39, 39, 39, 0), rgba(39, 39, 39, 0.753)), url(https://images.unsplash.com/photo-1503767849114-976b67568b02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+            }
+
+            &:nth-child(2) {
+                background-image: linear-gradient(to top, rgba(39, 39, 39, 0), rgba(39, 39, 39, 0.753)), url(https://images.unsplash.com/photo-1551326844-4df70f78d0e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1852&q=80);
+                animation-delay: 7s;
+            }
+            &:nth-child(3) {
+                background-image: linear-gradient(to top, rgba(39, 39, 39, 0), rgba(39, 39, 39, 0.753)), url(https://images.unsplash.com/photo-1580683742795-49989f7ecb72?ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80);
+                animation-delay: 14s;
+            }
+              
+            &:nth-child(4) {
+                background-image: linear-gradient(to top, rgba(39, 39, 39, 0), rgba(39, 39, 39, 0.753)), url(https://images.unsplash.com/photo-1550767552-374fd1babc81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+                animation-delay: 21s;
+            }
+              
+            &:nth-child(5) {
+                background-image: linear-gradient(to top, rgba(39, 39, 39, 0.26), rgba(39, 39, 39, 0.753)), url(https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80);
+                animation-delay: 28s;
+            }
+        }
+    }
+}
