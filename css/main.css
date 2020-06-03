@@ -564,7 +564,10 @@ footer {
     font-size: 14px; }
 
   .contact_card {
-    margin-bottom: 10vh; } }
+    margin-bottom: 10vh; }
+
+  .contact_form {
+    margin-bottom: 10px; } }
 @media screen and (min-width: 340px) {
   header #content1 {
     margin-top: 20vh;
@@ -590,7 +593,10 @@ footer {
     margin-right: 15px; }
 
   .contact_card {
-    margin-bottom: 10vh; } }
+    margin-bottom: 10vh; }
+
+  .contact_form {
+    margin-bottom: 10px; } }
 @media screen and (min-width: 600px) {
   header #content1 {
     margin-top: 25vh;
